@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.4) rotate(360deg);
+  transform: scale(1.3) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -94,7 +94,6 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-
 }
 
 .card h2 {
