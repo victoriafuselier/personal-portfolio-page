@@ -70,7 +70,7 @@ header .profile-image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 6px solid white;
+  border: 5px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -83,7 +83,16 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
+
+.name:hover {
+  transform: scale(1.2);
+}
+
+.location:hover {
+  transform: scale(1.7);
+}
+
 .location {
   background-color: #222;
   color: white;
