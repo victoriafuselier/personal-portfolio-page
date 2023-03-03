@@ -89,11 +89,11 @@ header .profile-image:hover {
   transform: scale(1.2);
 }
 
-.location:hover {
+.nickname:hover {
   transform: scale(1.7);
 }
 
-.location {
+.nickname {
   background-color: #222;
   color: white;
 }
