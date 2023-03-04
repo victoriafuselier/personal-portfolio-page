@@ -190,8 +190,12 @@ ul.skills , ul.hobbieslist {
   margin: 20px;
 }
 
-.hover-info {
+.hidden-info {
   display: none;
+}
+
+.visible-info {
+  display: block;
 }
 
 #contactlist {
