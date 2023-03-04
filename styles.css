@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -58,6 +58,7 @@ a:hover {
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 200px;
@@ -111,24 +112,33 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 
-.name:hover {
+.headline {
+  font-size: 2em;
+}
+
+.headline:hover {
   transform: scale(1.2);
 }
 
-.nickname:hover {
+.tagline:hover {
   transform: scale(1.7);
 }
 
-.nickname {
+.tagline {
   background-color: #222;
   color: white;
+  font-size: 1.25em;
+  margin-top: 7px;
+  margin-bottom: 45px;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
+  border-style: hidden;
 }
 
 .card h2 {
@@ -137,10 +147,10 @@ header .profile-image:hover {
 
 .card:hover {
   /* border-color: #075016; */
-  border-bottom: 10px solid #ccc;
-  border-right: 10px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  border-top: 10px solid #ccc;
+  border-bottom: 10px solid #ccc;
 }
 
 ul.skills , ul.hobbieslist {
@@ -176,7 +186,10 @@ ul.skills , ul.hobbieslist {
 
 #contactlist {
   list-style-type: none;
-  text-align: center;
+}
+
+#contactlist li {
+  margin: 7px 0px;
 }
 
 footer {
