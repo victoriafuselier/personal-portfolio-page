@@ -11,6 +11,11 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+
+p {
+  font-weight: 300;
+}
+
 /* Link Styles */
 
 a {
@@ -189,7 +194,7 @@ ul.skills , ul.hobbieslist {
 }
 
 #contactlist li {
-  margin: 7px 0px;
+  margin: 7px 0px 7px -25px;
 }
 
 footer {
