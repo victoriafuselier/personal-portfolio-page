@@ -12,8 +12,13 @@ body {
   background: #f7f5f0;
 }
 
-p {
-  font-weight: 300;
+p, li {
+  font-weight: 400;
+}
+
+nav li {
+  font-weight: 500;
+  font-size: 1.5em;
 }
 
 /* Link Styles */
