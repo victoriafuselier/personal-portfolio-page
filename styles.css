@@ -186,6 +186,15 @@ footer ul li {
   display: inline-block;
 }
 
+.credits {
+  font-size: 12px;
+  margin-top: -8px;
+}
+
+.credits a {
+  color: black;
+}
+
 a.social {
   display: inline-block;
   text-indent: -9999px;
