@@ -151,8 +151,6 @@ header .profile-image:hover {
   background: #fff;
   border-right: 5px solid transparent;
   border-bottom: 10px solid transparent;
-
-  /* border-color: #075016; */
   border-radius: 6px;
 }
 
@@ -217,38 +215,27 @@ button {
   font-size: 12px;
 }
 
-#contactcard {
+#contact-list-spacing {
+  margin-top: 2.5em;
+}
+
+#contact-card {
   text-align: center;
 }
 
-#contactlist li {
-  margin: 7px 0px 7px -25px;
-  line-height: 2.5em;
-}
-
-#contactlist a {
-  text-decoration: underline;
-}
-
-#contactlist {
+.contact-list li {
   list-style-type: none;
+  line-height: 3.5em;
+  margin-left: -40px;
 }
 
-#contact-list-spacing {
-  font-weight: bold;
-  padding-top: 35px;
+.contact-list a {
+  text-decoration: underline;
+  color: lightseagreen;
 }
 
-#socialcolor1 {
-  color: rgb(252, 139, 40);
-
-}
-#socialcolor2 {
-  color: #7a4c9de8;
-}
-
-#socialcolor3 {
-  color: salmon
+.contact-list a:hover {
+  color: #999;
 }
 
 footer {
