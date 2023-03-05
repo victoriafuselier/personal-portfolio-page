@@ -202,10 +202,16 @@ ul.skills , ul.hobbieslist {
 
 #contactlist {
   list-style-type: none;
+  text-align: center;
 }
 
 #contactlist li {
   margin: 7px 0px 7px -25px;
+}
+
+#contactlist a {
+  color: unset;
+  text-decoration: underline;
 }
 
 footer {
