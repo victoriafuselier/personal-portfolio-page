@@ -81,7 +81,7 @@ header .profile-image:hover {
   transform: scale(1.3) rotate(360deg);
 }
 
-#indexheader {
+#index-header {
   background: url('images/clouds.jpg') no-repeat top center ;
   text-align: center;
   background-size: cover;
@@ -89,7 +89,7 @@ header .profile-image:hover {
   padding-top: 60px;
 }
 
-#aboutmeheader {
+#about-me-header {
   background: url('images/swamp.jpg') no-repeat top center ;
   text-align: center;
   background-size: cover;
@@ -97,7 +97,7 @@ header .profile-image:hover {
   padding-top: 60px;
 }
 
-#skillsheader {
+#skills-header {
   background: url('images/workspace.jpg') no-repeat top center ;
   text-align: center;
   background-size: cover;
@@ -105,7 +105,7 @@ header .profile-image:hover {
   padding-top: 60px;
 }
 
-#contactheader {
+#contact-header {
   background: url('images/phone.jpg') no-repeat top center ;
   text-align: center;
   background-size: cover;
@@ -199,17 +199,6 @@ ul.skills , ul.hobbies-list {
 #hobbies-card {
   padding-top: 60px;
 }
-
-/* 
-.hobbies-list h3 {
-  border-radius: 6px;
-  display: block;
-  background: #6da1e0e8;
-  color: white;
-  padding: 5px 5px;
-  margin: 10px;
-  font-size: 1em;
-} */
 
 .hidden-info {
   display: none;
