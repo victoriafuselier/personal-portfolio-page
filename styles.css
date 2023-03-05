@@ -148,18 +148,20 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-style: hidden;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  /* border-color: #075016; */
+  border-radius: 6px;
 }
 
 .card h2 {
   text-align: center;
 }
 
-.card:hover {
-  /* border-color: #075016; */
-  border-radius: 6px;
+.card:hover {  
   transition: all .5s;
-  border-top: 10px solid #ccc;
+  border-right: 5px solid #ccc;
   border-bottom: 10px solid #ccc;
 }
 
