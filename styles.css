@@ -200,8 +200,7 @@ ul.skills , ul.hobbieslist {
   display: block;
 }
 
-#contactlist {
-  list-style-type: none;
+#contactcard {
   text-align: center;
 }
 
@@ -212,6 +211,10 @@ ul.skills , ul.hobbieslist {
 #contactlist a {
   color: unset;
   text-decoration: underline;
+}
+
+#contactlist {
+  list-style-type: none;
 }
 
 footer {
