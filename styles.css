@@ -164,6 +164,10 @@ header .profile-image:hover {
   border-bottom: 10px solid #ccc;
 }
 
+.skills-page-list {
+  line-height: 2em;
+}
+
 ul.skills , ul.hobbieslist {
   padding: 0;
   text-align: center;
