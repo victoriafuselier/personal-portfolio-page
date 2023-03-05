@@ -173,7 +173,7 @@ ul.skills , ul.hobbieslist {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #188b2b;
+  background: #9da59e;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -186,10 +186,11 @@ ul.skills , ul.hobbieslist {
 .hobbieslist li {
   border-radius: 6px;
   display: block;
-  background: #188b2b;
+  background: #d5b917e8;
   color: white;
   padding: 5px 5px;
-  margin: 20px;
+  margin: 10px;
+  font-size: 1.25em;
 }
 
 .hidden-info {
@@ -198,6 +199,17 @@ ul.skills , ul.hobbieslist {
 
 .visible-info {
   display: block;
+}
+
+button {
+  border-radius: 6px;
+  display: block;
+  background: #9da59e;
+  color: white;
+  padding: 5px 5px;
+  margin: 5px auto;
+  border-width: 1px;
+  font-size: 12px;
 }
 
 #contactcard {
