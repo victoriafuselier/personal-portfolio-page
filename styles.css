@@ -190,14 +190,16 @@ ul.skills , ul.hobbies-list {
   background-color: darkolivegreen;
   width: 250px;
   padding: 30px auto -30px;
+  font-weight: 400;
 }
 
 .hobbies-list {
   text-align: center;
+  padding: 30px 0px 0px 0px;
 }
 
-#hobbies-card {
-  padding-top: 60px;
+#hobbies-heading {
+  margin-bottom: 0px;
 }
 
 .hidden-info {
