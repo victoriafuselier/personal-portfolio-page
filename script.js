@@ -33,21 +33,5 @@ moreButton2.addEventListener('click', () => {
 
             hobby2info.className = 'hidden-info';
             moreButton2.textContent = 'More';
-    }})
-
-moreButton3.addEventListener('click', () => {
-    if (moreButton3.textContent = 'More') {
-        console.log('More');
-        const hobby3info = document.getElementById('hobby3info');
-            
-        hobby3info.className = 'visible-info';
-        moreButton3.textContent = 'Less';
-    } else if (moreButton3.textContent = 'Less') {
-        console.log('Less');
-
-        const hobby3info = document.getElementById('hobby3info');
-
-            hobby3info.className = 'hidden-info';
-            moreButton3.textContent = 'More';
-    }})    
+    }})  
 
