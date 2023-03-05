@@ -219,6 +219,7 @@ button {
 
 #contactlist li {
   margin: 7px 0px 7px -25px;
+  line-height: 2.5em;
 }
 
 #contactlist a {
