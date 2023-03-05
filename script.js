@@ -20,7 +20,7 @@ moreButton1.addEventListener('click', () => {
     } else if (moreButton1.textContent === 'Less') {
         hobby1info.className = 'hidden-info';
         moreButton1.textContent = 'Read More';
-    }})
+    }});
 
 moreButton2.addEventListener('click', () => {
     const hobby2info = document.getElementById('hobby2info');
@@ -30,7 +30,7 @@ moreButton2.addEventListener('click', () => {
     } else if (moreButton2.textContent === 'Less') {
         hobby2info.className = 'hidden-info';
         moreButton2.textContent = 'Read More';
-    }})
+    }});
 
 moreButton3.addEventListener('click', () => {
     const hobby3info = document.getElementById('hobby3info');
@@ -40,7 +40,7 @@ moreButton3.addEventListener('click', () => {
     } else if (moreButton3.textContent === 'Less') {
         hobby3info.className = 'hidden-info';
         moreButton3.textContent = 'Read More';
-    }})
+    }});
 
 moreButton4.addEventListener('click', () => {
     const hobby4info = document.getElementById('hobby4info');
@@ -50,7 +50,7 @@ moreButton4.addEventListener('click', () => {
     } else if (moreButton4.textContent === 'Less') {
         hobby4info.className = 'hidden-info';
         moreButton4.textContent = 'Read More';
-    }})
+    }});
 
 moreButton5.addEventListener('click', () => {
     const hobby5info = document.getElementById('hobby5info');
@@ -60,7 +60,7 @@ moreButton5.addEventListener('click', () => {
     } else if (moreButton5.textContent === 'Less') {
         hobby5info.className = 'hidden-info';
         moreButton5.textContent = 'Read More';
-    }})
+    }});
 
 moreButton6.addEventListener('click', () => {
     const hobby6info = document.getElementById('hobby6info');
@@ -70,7 +70,7 @@ moreButton6.addEventListener('click', () => {
     } else if (moreButton6.textContent === 'Less') {
         hobby6info.className = 'hidden-info';
         moreButton6.textContent = 'Read More';
-    }})
+    }});
     
 moreButton7.addEventListener('click', () => {
     const hobby7info = document.getElementById('hobby7info');
@@ -80,7 +80,7 @@ moreButton7.addEventListener('click', () => {
     } else if (moreButton7.textContent === 'Less') {
         hobby7info.className = 'hidden-info';
         moreButton7.textContent = 'Read More';
-    }})
+    }});
 
 moreButton8.addEventListener('click', () => {
     const hobby8info = document.getElementById('hobby8info');
@@ -90,17 +90,17 @@ moreButton8.addEventListener('click', () => {
     } else if (moreButton8.textContent === 'Less') {
         hobby8info.className = 'hidden-info';
         moreButton8.textContent = 'Read More';
-    }})
+    }});
 
 moreButton9.addEventListener('click', () => {
-    const hobby8info = document.getElementById('hobby9info');
+    const hobby9info = document.getElementById('hobby9info');
     if (moreButton9.textContent === 'Read More') {    
         hobby9info.className = 'visible-info';
         moreButton9.textContent = 'Less';
     } else if (moreButton9.textContent === 'Less') {
         hobby9info.className = 'hidden-info';
         moreButton9.textContent = 'Read More';
-    }})
+    }});
 
 moreButton10.addEventListener('click', () => {
     const hobby10info = document.getElementById('hobby10info');
@@ -110,7 +110,7 @@ moreButton10.addEventListener('click', () => {
     } else if (moreButton10.textContent === 'Less') {
         hobby10info.className = 'hidden-info';
         moreButton10.textContent = 'Read More';
-    }})
+    }});
 
 moreButton11.addEventListener('click', () => {
     const hobby11info = document.getElementById('hobby11info');
@@ -120,6 +120,6 @@ moreButton11.addEventListener('click', () => {
     } else if (moreButton11.textContent === 'Less') {
         hobby11info.className = 'hidden-info';
         moreButton11.textContent = 'Read More';
-    }})
+    }});
 
 

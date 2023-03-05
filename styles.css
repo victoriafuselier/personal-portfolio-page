@@ -184,14 +184,18 @@ ul.skills , ul.hobbieslist {
   background: #2595e0e8;
 }
 
-.hobbieslist li {
+.hobbieslist {
+  text-align: center;
+}
+
+.hobbieslist h3 {
   border-radius: 6px;
   display: block;
-  background: #d5b917e8;
+  background: #6da1e0e8;
   color: white;
   padding: 5px 5px;
   margin: 10px;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .hidden-info {
@@ -223,12 +227,28 @@ button {
 }
 
 #contactlist a {
-  color: unset;
   text-decoration: underline;
 }
 
 #contactlist {
   list-style-type: none;
+}
+
+#contact-list-spacing {
+  font-weight: bold;
+  padding-top: 35px;
+}
+
+#socialcolor1 {
+  color: rgb(252, 139, 40);
+
+}
+#socialcolor2 {
+  color: #7a4c9de8;
+}
+
+#socialcolor3 {
+  color: salmon
 }
 
 footer {
