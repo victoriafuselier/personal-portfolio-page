@@ -1,6 +1,7 @@
 console.log('Hello Victoria. Your file is linked');
 
 const moreButton1 = document.getElementById('more-button1');
+const moreButton2 = document.getElementById('more-button2');
 
 moreButton1.addEventListener('click', () => {
     if (moreButton1.textContent = 'More') {
