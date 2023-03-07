@@ -1,2 +1,2 @@
-# techdegree-project-1
- Project 1: Personal Profile
+# personal-profile-page
+ Treehouse Techdegree Project 1: Personal Profile Page
