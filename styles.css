@@ -18,16 +18,15 @@ p, li {
 nav li {
   font-weight: 500;
   font-size: .75rem;
-  max-width: 400px;
 }
 
-#nav-title {
+#page-title {
   display: none;
 }
 
 /* Link Styles */
 
-a {
+a, #page-title {
   text-decoration: none;
   color: #999;
 }
@@ -54,11 +53,6 @@ a:hover {
   padding: 0;
 }
 
-.nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
-}
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -331,8 +325,13 @@ a.social:hover {
 
   .nav li {
     font-size: 1.5rem;
-
   }
+
+  .nav #page-title {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
 
   main {
     padding-top: 20px;
