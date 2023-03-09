@@ -1,4 +1,7 @@
-/* Global Layout Set-up */
+/* =============================================================
+                     Global Set-Up Styles                               
+============================================================== */
+
 * { 
   box-sizing: border-box;
 }
@@ -11,50 +14,57 @@ body {
   background: #f7f5f0;
 }
 
-/* nav */
+/* =============================================================
+                          Nav Styles                               
+============================================================== */
 
 nav li {
   font-weight: 500;
+  padding: .5rem;
 }
 
 #page-title {
   display: none;
+  color: white;
 }
 
 .main-nav {
   width: 100%;
   background: black;
-  min-height: 30px;
-  padding: 10px;
+  min-height: 1.8rem;
+  padding: .6rem;
   position: fixed;
   text-align: center;
 }
-.nav {
+
+.nav-ul {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  max-width: 500px;
 }
 
-.nav li {
-  padding: 5px 10px 10px 10px;
-}
-
-.nav a {
+.nav a, a {
   transition: all .5s;
 }
 
-a, #page-title {
+a {
   text-decoration: none;
   color: #999;
 }
-a:hover {
+nav a:hover {
   color: white;
 }
 
-/* header */
+#credits a:hover {
+  color: rgba(152, 152, 168, 0.664);
+}
+
+/* =============================================================
+                          Header Styles                               
+============================================================== */
 
 .tag {
   background-color: #efefef;
@@ -79,21 +89,16 @@ a:hover {
   margin-bottom: 45px;
 }
 
-/* main */
-
-h2 {
-  font-size: 1.25rem;
-}
-
-p, li {
-  font-weight: 400;
-  font-size: 1rem;
-}
-
-/* header */
+/* =============================================================
+                          Header Styles                               
+============================================================== */
 
 header {
   line-height: 1.5;
+  text-align: center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
 }
 
 header .profile-image {
@@ -109,36 +114,33 @@ header .profile-image:hover {
 }
 
 #index-header {
-  background: url('images/clouds.jpg') no-repeat top center ;
-  text-align: center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
+  background: url('images/clouds.jpg') no-repeat top center;
 }
 
 #about-me-header {
-  background: url('images/swamp.jpg') no-repeat top center ;
-  text-align: center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
+  background: url('images/swamp.jpg') no-repeat top center;
 }
 
 #skills-header {
-  background: url('images/workspace.jpg') no-repeat top center ;
-  text-align: center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
+  background: url('images/workspace.jpg') no-repeat top center;
 }
 
 #contact-header {
-  background: url('images/phone.jpg') no-repeat top center ;
-  text-align: center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
+  background: url('images/phone.jpg') no-repeat top center;
 }
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p, li {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* =============================================================
+                          Card Styles                               
+============================================================== */
 
 .card {
   margin: 30px auto;
@@ -161,7 +163,9 @@ header .profile-image:hover {
   border-bottom: 10px solid #ccc;
 }
 
-/* skills page */
+/* =============================================================
+                     Skills Page Styles                               
+============================================================== */
 
 .skills-page-list {
   line-height: 2em;
@@ -185,7 +189,9 @@ ul.skills , ul.hobbies-list {
   background: #2595e0e8;
 }
 
-/* about me page */
+/* =============================================================
+                  About Me Page Styles                               
+============================================================== */
 
 .hobbies-list h3 {
   background-color: darkolivegreen;
@@ -221,7 +227,9 @@ button {
   font-size: 12px;
 }
 
-/* contact page */
+/* =============================================================
+                    Contact Page Styles                               
+============================================================== */
 
 #contact-list-spacing {
   margin-top: 2.5em;
@@ -246,7 +254,9 @@ button {
   color: #999;
 }
 
-/* footer */
+/* =============================================================
+                        Footer Styles                               
+============================================================== */
 
 footer {
   width: 100%;
