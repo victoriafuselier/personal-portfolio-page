@@ -18,8 +18,7 @@ body {
                           Nav Styles                               
 ============================================================== */
 
-nav li {
-  font-weight: 500;
+.nav li {
   padding: .5rem;
 }
 
@@ -34,7 +33,6 @@ nav li {
   min-height: 1.8rem;
   padding: .6rem;
   position: fixed;
-  text-align: center;
 }
 
 .nav-ul {
@@ -46,20 +44,25 @@ nav li {
   max-width: 500px;
 }
 
-.nav a, a {
+a {
   transition: all .5s;
+  text-decoration: none;
+  color: black;
 }
 
-a {
-  text-decoration: none;
+nav a {
   color: #999;
+  font-weight: 500;
+  font-size: 1rem;
 }
-nav a:hover {
+
+a:hover {
   color: white;
 }
 
-#credits a:hover {
-  color: rgba(152, 152, 168, 0.664);
+footer a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 /* =============================================================
@@ -70,12 +73,11 @@ nav a:hover {
   background-color: #efefef;
   padding: 10px;
   border-radius: 5px;
-  display: table;
-  margin: 10px auto;
+  /* margin: .75rem auto; */
   max-width: 80%;
 }
 .headline {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 .tag:hover {
@@ -85,24 +87,19 @@ nav a:hover {
 .tagline {
   background-color: #222;
   color: white;
-  margin-top: 7px;
-  margin-bottom: 45px;
 }
 
-/* =============================================================
-                          Header Styles                               
-============================================================== */
-
 header {
-  line-height: 1.5;
-  text-align: center;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: center;
 }
 
 header .profile-image {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -133,8 +130,7 @@ h2 {
   font-size: 1.25rem;
 }
 
-p, li {
-  font-weight: 400;
+p {
   font-size: 1rem;
 }
 
