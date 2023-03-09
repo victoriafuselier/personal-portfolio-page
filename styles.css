@@ -10,8 +10,8 @@ body {
   margin: 0;
   padding: 0;
 	font-family: 'Fira Sans', sans-serif;
-  /* color: #222; */
   background: #f7f5f0;
+  text-align: center;
 }
 
 /* =============================================================
@@ -30,8 +30,8 @@ body {
 .main-nav {
   width: 100%;
   background: black;
-  min-height: 1.8rem;
-  padding: .6rem;
+  min-height: 2.5rem;
+  padding: 1rem;
   position: fixed;
 }
 
@@ -41,11 +41,10 @@ body {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 a {
-  transition: all .5s;
   text-decoration: none;
   color: black;
 }
@@ -54,9 +53,10 @@ nav a {
   color: #999;
   font-weight: 500;
   font-size: 1rem;
+  transition: all .5s;
 }
 
-a:hover {
+nav a:hover {
   color: white;
 }
 
@@ -69,24 +69,42 @@ footer a:hover {
                           Header Styles                               
 ============================================================== */
 
+.profile-image {
+  margin: 5rem auto 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+.profile-image:hover {
+  transform: scale(1.3) rotate(360deg);
+}
+
 .tag {
-  background-color: #efefef;
   padding: 10px;
   border-radius: 5px;
-  /* margin: .75rem auto; */
   max-width: 80%;
-}
-.headline {
-  font-size: 1.75rem;
+  text-align: center;
 }
 
 .tag:hover {
   transform: scale(1.2);
 }
 
+.headline {
+  background-color: #efefef;
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
 .tagline {
   background-color: #222;
   color: white;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
 }
 
 header {
@@ -94,20 +112,8 @@ header {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: space-around;
+  align-items: center;
   justify-content: center;
-}
-
-header .profile-image {
-  /* margin-top: 50px; */
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 5px solid white;
-  transition: all .5s;
-}
-header .profile-image:hover {
-  transform: scale(1.3) rotate(360deg);
 }
 
 #index-header {
@@ -126,6 +132,10 @@ header .profile-image:hover {
   background: url('images/phone.jpg') no-repeat top center;
 }
 
+/* =============================================================
+                          Card Styles                               
+============================================================== */
+
 h2 {
   font-size: 1.25rem;
 }
@@ -134,19 +144,15 @@ p {
   font-size: 1rem;
 }
 
-/* =============================================================
-                          Card Styles                               
-============================================================== */
-
 .card {
-  margin: 30px auto;
+  margin: 30px;
   padding: 20px 40px;
   max-width: 500px;
-  text-align: left;
   background: #fff;
   border-right: 5px solid transparent;
   border-bottom: 10px solid transparent;
   border-radius: 6px;
+  text-align: left;
 }
 
 .card h2 {
@@ -237,7 +243,7 @@ button {
 
 .contact-list li {
   list-style-type: none;
-  line-height: 3.5em;
+  line-height: 2.5em;
   margin-left: -40px;
 }
 
@@ -257,7 +263,8 @@ button {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  text-align: center;
+  padding: 2rem;
 }
 
 footer .copyright {
@@ -294,18 +301,23 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
 a.twitter {
   background-image: url(images/twitter.svg);
 }
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
+
 a.github {
   background-image: url(images/github.svg);
 }
+
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
@@ -328,23 +340,34 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
-    min-height: 470px;
+  nav {
+    height: 4.5rem;
   }
 
-  .nav {
-    padding: 0 30px;
+  nav li, nav a {
+    font-size: 1.25rem;
   }
 
-  .nav li {
-    font-size: 1.5rem;
+  nav a {
+    margin-left: 1rem;
   }
 
-  .nav #page-title {
+  .nav-ul {
+    max-width: unset;
+    padding: .5rem;
+    font-size: 2rem;
+  }
+
+  #page-title {
     display: block;
+    max-width: unset;
     margin-right: auto;
     color: white;
-}
+  }
+
+  .profile-image {
+    margin-top: 6rem;
+  }
 
   main {
     padding-top: 20px;
