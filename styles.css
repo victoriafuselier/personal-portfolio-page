@@ -11,30 +11,15 @@ body {
   background: #f7f5f0;
 }
 
-p, li {
-  font-weight: 400;
-}
+/* nav */
 
 nav li {
   font-weight: 500;
-  font-size: .75rem;
 }
 
 #page-title {
   display: none;
 }
-
-/* Link Styles */
-
-a, #page-title {
-  text-decoration: none;
-  color: #999;
-}
-a:hover {
-  color: #6633ff;
-}
-
-/* Section Styles */
 
 .main-nav {
   width: 100%;
@@ -56,12 +41,56 @@ a:hover {
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
-  color: white
+
+a, #page-title {
+  text-decoration: none;
+  color: #999;
 }
+a:hover {
+  color: white;
+}
+
+/* header */
+
+.tag {
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+  max-width: 80%;
+}
+.headline {
+  font-size: 1.5rem;
+}
+
+.tag:hover {
+  transform: scale(1.2);
+}
+
+.tagline {
+  background-color: #222;
+  color: white;
+  margin-top: 7px;
+  margin-bottom: 45px;
+}
+
+/* main */
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p, li {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* header */
 
 header {
   line-height: 1.5;
@@ -111,36 +140,6 @@ header .profile-image:hover {
   padding-top: 60px;
 }
 
-.tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
-  max-width: 80%;
-}
-
-.headline {
-  font-size: 2em;
-}
-
-.headline:hover {
-  transform: scale(1.2);
-}
-
-.tagline:hover {
-  transform: scale(1.7);
-}
-
-.tagline {
-  background-color: #222;
-  color: white;
-  font-size: 1.25em;
-  margin-top: 7px;
-  margin-bottom: 45px;
-}
-
 .card {
   margin: 30px auto;
   padding: 20px 40px;
@@ -161,6 +160,8 @@ header .profile-image:hover {
   border-right: 5px solid #ccc;
   border-bottom: 10px solid #ccc;
 }
+
+/* skills page */
 
 .skills-page-list {
   line-height: 2em;
@@ -183,6 +184,8 @@ ul.skills , ul.hobbies-list {
 .skills li:nth-child(odd) {
   background: #2595e0e8;
 }
+
+/* about me page */
 
 .hobbies-list h3 {
   background-color: darkolivegreen;
@@ -218,6 +221,8 @@ button {
   font-size: 12px;
 }
 
+/* contact page */
+
 #contact-list-spacing {
   margin-top: 2.5em;
 }
@@ -240,6 +245,8 @@ button {
 .contact-list a:hover {
   color: #999;
 }
+
+/* footer */
 
 footer {
   width: 100%;
