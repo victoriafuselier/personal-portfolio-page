@@ -38,13 +38,18 @@ body {
   width: 100%;
   background: black;
   min-height: 2.5rem;
-  padding: 1rem;
+  padding: 1rem .5rem;
   position: fixed;
+}
+
+#nav-div {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .nav-ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -394,6 +399,10 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
+  }
+
+  #nav-div {
+    padding: 0 3rem;
   }
 
 }
