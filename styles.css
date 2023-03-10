@@ -14,6 +14,13 @@ body {
   text-align: center;
 }
 
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /* =============================================================
                           Nav Styles                               
 ============================================================== */
@@ -70,7 +77,7 @@ footer a:hover {
 ============================================================== */
 
 .profile-image {
-  margin: 5rem auto 0;
+  margin: 6rem auto 0;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -108,28 +115,33 @@ footer a:hover {
 }
 
 header {
-  background-size: cover;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 #index-header {
   background: url('images/clouds.jpg') no-repeat top center;
+  background-size: cover;
+
 }
 
 #about-me-header {
   background: url('images/swamp.jpg') no-repeat top center;
+  background-size: cover;
 }
 
 #skills-header {
   background: url('images/workspace.jpg') no-repeat top center;
+  background-size: cover;
 }
 
 #contact-header {
   background: url('images/phone.jpg') no-repeat top center;
+  background-size: cover;
 }
 
 /* =============================================================
@@ -145,9 +157,9 @@ p {
 }
 
 .card {
-  margin: 30px;
-  padding: 20px 40px;
-  max-width: 500px;
+  margin: 1rem .75rem;
+  padding: 1.5rem;
+  max-width: 400px;
   background: #fff;
   border-right: 5px solid transparent;
   border-bottom: 10px solid transparent;
@@ -170,7 +182,7 @@ p {
 ============================================================== */
 
 .skills-page-list {
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 ul.skills , ul.hobbies-list {
@@ -233,18 +245,14 @@ button {
                     Contact Page Styles                               
 ============================================================== */
 
-#contact-list-spacing {
-  margin-top: 2.5em;
-}
-
-#contact-card {
+.contact-list {
   text-align: center;
+  padding-left: 0;
 }
 
 .contact-list li {
   list-style-type: none;
   line-height: 2.5em;
-  margin-left: -40px;
 }
 
 .contact-list a {
@@ -256,6 +264,11 @@ button {
   color: #999;
 }
 
+#contact-main {
+  flex-direction: column;
+  align-items: center;
+}
+
 /* =============================================================
                         Footer Styles                               
 ============================================================== */
@@ -264,11 +277,12 @@ footer {
   width: 100%;
   min-height: 30px;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
+  margin-top: 2rem;
+
 }
 
 footer .copyright {
-  top: -8px;
   font-size: .75em;
 }
 
@@ -298,7 +312,7 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: .6;
   transition: all .5s;
 }
 
@@ -340,6 +354,10 @@ a.social:hover {
       margin: 0 auto;
   }
 
+  .profile-image {
+    margin-top: 7rem;
+  }
+
   nav {
     height: 4.5rem;
   }
@@ -349,7 +367,7 @@ a.social:hover {
   }
 
   nav a {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 
   .nav-ul {
@@ -363,10 +381,7 @@ a.social:hover {
     max-width: unset;
     margin-right: auto;
     color: white;
-  }
-
-  .profile-image {
-    margin-top: 6rem;
+    font-weight: 500;
   }
 
   main {
@@ -379,9 +394,30 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
   }
 
 }
 
+
+@media screen and (min-width: 1024px) {
+  .profile-image {
+    margin-top: 8rem;
+  }
+
+  nav li, nav a {
+    font-size: 2rem;
+  }
+
+  nav {
+    height: unset;
+  }
+
+  .headline {
+    font-size: 2.5rem;
+  }
+
+  .tagline, h2 {
+    font-size: 1.5rem;
+  }
+
+}
