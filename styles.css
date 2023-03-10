@@ -42,6 +42,11 @@ body {
   position: fixed;
 }
 
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 #nav-div {
   max-width: 900px;
   margin: 0 auto;
@@ -164,7 +169,7 @@ p {
 .card {
   margin: 1rem .75rem;
   padding: 1.5rem;
-  max-width: 400px;
+  width: 400px;
   background: #fff;
   border-right: 5px solid transparent;
   border-bottom: 10px solid transparent;
@@ -353,7 +358,6 @@ a.social:hover {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
-      max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
