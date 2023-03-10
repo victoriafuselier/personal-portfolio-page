@@ -243,6 +243,7 @@ ul.skills , ul.hobbies-list {
 
 button {
   border-radius: 6px;
+  border-color: white;
   display: block;
   background: #2595e0e8;
   color: white;
@@ -250,6 +251,11 @@ button {
   margin: 5px auto 30px;
   border-width: 1px;
   font-size: 12px;
+  transition: all .5s;
+}
+
+button:hover {
+  transform: scale(1.5) translate(0, 5px);
 }
 
 /* =============================================================
