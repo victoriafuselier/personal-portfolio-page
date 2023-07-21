@@ -12,6 +12,4 @@ I went beyond the requirements listed above by: using my pre-existing beginner J
 Grade Recieved: 'Exceeds Expectations'
 
 Reviewer Comments: 
-    "Great job! Congratulations on successfully completing your first project. You've done a great job here showcasing your skills and following all of the instructions to get your project across the finish line. Plus you challenged yourself to take the extra steps and earn yourself the awesome Exceeds Expectations grade! Way to go!
-
-    I love the JavaScript you have implemented as well! Everything is looking / working fantastic! Nicely done!!"
+    "Great job! Congratulations on successfully completing your first project. You've done a great job here showcasing your skills and following all of the instructions to get your project across the finish line. Plus you challenged yourself to take the extra steps and earn yourself the awesome Exceeds Expectations grade! Way to go! I love the JavaScript you have implemented as well! Everything is looking / working fantastic! Nicely done!!"
