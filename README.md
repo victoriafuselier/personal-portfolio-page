@@ -1,7 +1,7 @@
 # personal-profile-page
  Treehouse Techdegree Project 1: Personal Profile Page
 
-The purpose of this project was to practice web design skills by customizing a personal profile web page. I was provided starter files that included HTML, CSS, and images for the example site to be customized. I practiced my HTML and CSS skills to complete this project. 
+The purpose of this project was to practice web design skills by customizing a personal profile web page. I was provided starter files that included HTML, CSS, and images for the example site to be customized. I used my HTML and CSS skills to complete this project. 
 
 The basic requirements for this project included: replacing background and profile images with personal photos while minding file size and practicing with a picture resizing tool--PicResize; modifying the HTML to personalize the profiles; adding functional links to social media profiles; creating at least one additional HTML file to add a second page to the site and programming navigation for the site; learning how to use GitHub/GitHub Desktop; learning how to use HTML and CSS validators to check code prior to submitting project; learning how to use Slack to collaborate with others.
 
