@@ -29,6 +29,10 @@ main {
                           Nav Styles                               
 ============================================================== */
 
+nav {
+  z-index: 3;
+}
+
 .nav li {
   padding: .5rem;
 }
@@ -52,7 +56,7 @@ main {
 }
 
 #nav-div {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 0 auto;
 }
 
@@ -372,12 +376,13 @@ a.social:hover {
   }
 
   nav {
-    height: 4.5rem;
+    height: 5rem;
+    height: unset;
   }
 
-  nav li, nav a {
-    font-size: 1.25rem;
-  }
+  /* nav li, nav a {
+    font-size: 1rem;
+  } */
 
   nav a {
     margin-left: 2rem;
@@ -397,6 +402,7 @@ a.social:hover {
     font-weight: 500;
     border: 1px dotted white;
     padding: 3px 6px;
+    font-size: 1.5rem;
   }
 
   main {
@@ -423,13 +429,9 @@ a.social:hover {
     margin-top: 8rem;
   }
 
-  nav li, nav a {
+  /* nav li, nav a {
     font-size: 1.5rem;
-  }
-
-  nav {
-    height: unset;
-  }
+  } */
 
   .headline {
     font-size: 2.5rem;
